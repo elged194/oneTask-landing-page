@@ -1,0 +1,241 @@
+/* --------------- ** Responsive Design ** --------------- */
+
+/* CSS styles for screens between 300px and 700px */
+/* @media (max-width: 700px) and (min-width: 300px) {
+
+} */
+
+/* --------------- ** max screens 768px to 1000px ** --------------- */
+@media (max-width: 1000px) {
+    section {
+        padding: 20px 50px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    button {
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+    /* ----** NavBar **---- */
+    .navbar {
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    .navbar .nav-logo {
+        width: 100%;
+    }
+
+    .navbar .nav-logo .menu-icon {
+        display: block;
+        font-size: 46px;
+        margin-right: 10px;
+    }
+
+    .navbar .nav-call {
+        display: none;
+    }
+
+    .nav-list {
+        /* display: none; */
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 11px;
+    }
+
+    .menu-icon:hover+.nav-list,
+    .menu-icon:focus+.nav-list {
+        display: block;
+        flex-direction: column;
+        background-color: blueviolet;
+    }
+
+    .navbar .nav-list li {
+        width: 100%;
+        text-align: center;
+        margin: 4px 2px;
+    }
+
+    /* ----** header **---- */
+    .header {
+        padding: 0px 50px;
+        height: auto;
+    }
+
+    .header .text-header {
+        width: 70%;
+        padding: 40px 0;
+    }
+
+    .header .text-header h1 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .header .range {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+
+    /* ---** our-values **--- */
+    .our-values .cart {
+        width: calc(85% / 2);
+        margin-bottom: 10px;
+    }
+
+    /* ---** about **--- */
+    .about>div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .about .text-abs {
+        left: 150px;
+        bottom: 30px;
+    }
+
+    /* ---** power-doesn **--- */
+    .power-doesn {
+        height: auto;
+        background-size: cover;
+        padding: 50px;
+    }
+
+    .power-doesn h1 {
+        font-size: 25px;
+    }
+
+    /* ---** repairs **--- */
+    .repairs {
+        height: auto;
+        background-size: cover;
+    }
+
+    .repairs .text-repairs {
+        padding: 28px;
+    }
+
+    /* ---** products **--- */
+    .products .products-cart {
+        width: 100%;
+    }
+
+    .products-cart>div {
+        width: 48%;
+    }
+
+    /* ---** testimonial **--- */
+    .testimonial>div {
+        width: 100% !important;
+    }
+
+    /* ---** footer **--- */
+    footer {
+        padding: 40px 75px;
+    }
+
+    footer .top-foot>div {
+        width: 100% !important;
+    }
+
+    footer .copyright>div {
+        width: 80% !important;
+        margin: 5px auto;
+        text-align: center;
+    }
+}
+
+/* --------------- ** max screens 425px to 768px ** --------------- */
+@media (max-width: 768px) {
+    h1{
+        font-size: 23px !important;
+        margin-bottom: 6px !important;
+        line-height: 1.3 !important;
+    }
+    section {
+        padding: 20px ;
+    }
+
+    .header{
+        padding: 0 20px;
+    }
+    .header .text-header{
+        width: 100%;
+    }
+
+    .about .text-abs {
+        left: -8px;
+        bottom: 26px;
+        width: 56%;
+    }
+
+    .power-doesn {
+        background-size: contain;
+        padding: 20px;
+    }
+    .power-doesn h1{
+        font-size: 15px !important;
+        margin-bottom: 10px !important;
+    }
+    .power-doesn p{
+        width: 85%;
+        margin-bottom: 10px;
+    }
+
+    .content-solar {
+        justify-content: center;
+    }
+    .solar-kits .cart {
+        width: calc(94% / 1);
+    }
+    
+    .repairs .text-repairs{
+        width: 100%;
+    }
+
+    .our-values main{
+        justify-content: center !important;
+    }
+    .products-cart>div{
+        width: 100%;
+    }
+
+    .products-cart .bx-cloud-lightning{
+        margin-bottom: 10px;
+    }
+
+    .our-values .cart {
+        width: calc(95% / 1);
+    }
+
+    .testimonial .right-testimonial{
+        padding: 6px;
+    }
+
+    footer{
+        padding: 35px ;
+    }
+    footer .top-foot ul{
+        width: 100%;
+    }
+
+    footer .copyright>div{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 370px) {
+    footer{
+        padding: 25px 15px;
+    }
+}
