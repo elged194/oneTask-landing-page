@@ -100,9 +100,11 @@ p {
 .navbar .nav-call {
     text-align: end;
 }
+
 .navbar .nav-logo .menu-icon {
     display: none;
 }
+
 /* --------------- ** header ** --------------- */
 .header {
     background-image: url(../images/solar-panels-meadow\ 1.png);
@@ -447,12 +449,13 @@ footer .top-foot .top-foo-ri {
     width: 35%;
 }
 
-footer .top-foo-ri p{
+footer .top-foo-ri p {
     font-size: 12px;
     margin-bottom: 10px;
     color: #92989F;
 
 }
+
 footer .top-foo-ri .search {
     background-color: #b3bdc727;
     border-radius: 38px;
@@ -480,17 +483,19 @@ footer .top-foo-ri .search button {
     background-color: var(--secondary-color);
     color: var(--text-white);
 }
+
 /* copyright */
-.copyright .copy-left{
+.copyright .copy-left {
     width: 40%;
 }
-.copyright .copy-right{
+
+.copyright .copy-right {
     color: #92989F;
     font-size: 11px;
     cursor: pointer;
 }
 
-.copyright .copy-left ul li{
+.copyright .copy-left ul li {
     font-size: 11px;
     padding-right: 20px;
     border-right: solid 2px #b3bdc727;

@@ -34,6 +34,10 @@
         width: 100%;
     }
 
+    .navbar .nav-logo.flex {
+        justify-content: space-between !important;
+    }
+
     .navbar .nav-logo .menu-icon {
         display: block;
         font-size: 46px;
@@ -45,18 +49,17 @@
     }
 
     .nav-list {
-        /* display: none; */
+        display: none;
         width: 100%;
         flex-direction: column;
         align-items: center;
         padding: 11px;
     }
 
-    .menu-icon:hover+.nav-list,
+    .nav-logo:hover+.nav-list,
     .menu-icon:focus+.nav-list {
         display: block;
         flex-direction: column;
-        background-color: blueviolet;
     }
 
     .navbar .nav-list li {
@@ -138,9 +141,11 @@
     .testimonial>div {
         width: 95% !important;
     }
-    .bottom-sec .user{
+
+    .bottom-sec .user {
         margin-right: 6px;
     }
+
     /* ---** footer **--- */
     footer {
         padding: 40px 75px;
@@ -181,22 +186,28 @@
         width: 100%;
     }
 
+    .navbar .nav-logo .flex {
+        justify-content: space-between !important;
+    }
+
     .about .text-abs {
         left: 0px;
         bottom: 14px;
         width: 56%;
     }
 
-    .about .text-abs p{
+    .about .text-abs p {
         margin-bottom: 0;
     }
+
     .about img {
         width: 85%;
     }
 
-    .about>div{
+    .about>div {
         width: 95%;
     }
+
     .power-doesn {
         background-size: contain;
         padding: 12px;
@@ -231,18 +242,24 @@
     .products-cart>div {
         width: 95%;
     }
-.products-cart{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+
+    .products-cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .products-cart .bx-cloud-lightning {
         margin-bottom: 10px;
     }
 
     .our-values .cart {
         width: calc(93% / 1);
+    }
+
+    .testimonial .flex {
+        justify-content: space-between !important;
     }
 
     .testimonial .right-testimonial {
@@ -266,7 +283,12 @@
     footer {
         padding: 35px 15px !important;
     }
-    footer .flex{
+
+    footer .flex {
         justify-content: space-between !important;
+    }
+
+    .nav-call {
+        display: none;
     }
 }
