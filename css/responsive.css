@@ -127,7 +127,7 @@
 
     /* ---** products **--- */
     .products .products-cart {
-        width: 100%;
+        width: 97%;
     }
 
     .products-cart>div {
@@ -136,9 +136,11 @@
 
     /* ---** testimonial **--- */
     .testimonial>div {
-        width: 100% !important;
+        width: 95% !important;
     }
-
+    .bottom-sec .user{
+        margin-right: 6px;
+    }
     /* ---** footer **--- */
     footer {
         padding: 40px 75px;
@@ -157,37 +159,55 @@
 
 /* --------------- ** max screens 425px to 768px ** --------------- */
 @media (max-width: 768px) {
-    h1{
+    h1 {
         font-size: 23px !important;
         margin-bottom: 6px !important;
         line-height: 1.3 !important;
     }
+
     section {
-        padding: 20px ;
+        padding: 25px 5px;
     }
 
-    .header{
+    .flex {
+        justify-content: center !important;
+    }
+
+    .header {
         padding: 0 20px;
     }
-    .header .text-header{
+
+    .header .text-header {
         width: 100%;
     }
 
     .about .text-abs {
-        left: -8px;
-        bottom: 26px;
+        left: 0px;
+        bottom: 14px;
         width: 56%;
     }
 
+    .about .text-abs p{
+        margin-bottom: 0;
+    }
+    .about img {
+        width: 85%;
+    }
+
+    .about>div{
+        width: 95%;
+    }
     .power-doesn {
         background-size: contain;
-        padding: 20px;
+        padding: 12px;
     }
-    .power-doesn h1{
+
+    .power-doesn h1 {
         font-size: 15px !important;
         margin-bottom: 10px !important;
     }
-    .power-doesn p{
+
+    .power-doesn p {
         width: 85%;
         margin-bottom: 10px;
     }
@@ -195,47 +215,58 @@
     .content-solar {
         justify-content: center;
     }
+
     .solar-kits .cart {
         width: calc(94% / 1);
     }
-    
-    .repairs .text-repairs{
-        width: 100%;
+
+    .repairs .text-repairs {
+        width: 95%;
     }
 
-    .our-values main{
+    .our-values main {
         justify-content: center !important;
     }
-    .products-cart>div{
-        width: 100%;
-    }
 
-    .products-cart .bx-cloud-lightning{
+    .products-cart>div {
+        width: 95%;
+    }
+.products-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    .products-cart .bx-cloud-lightning {
         margin-bottom: 10px;
     }
 
     .our-values .cart {
-        width: calc(95% / 1);
+        width: calc(93% / 1);
     }
 
-    .testimonial .right-testimonial{
+    .testimonial .right-testimonial {
         padding: 6px;
     }
 
-    footer{
-        padding: 35px ;
+    footer {
+        padding: 35px;
     }
-    footer .top-foot ul{
+
+    footer .top-foot ul {
         width: 100%;
     }
 
-    footer .copyright>div{
+    footer .copyright>div {
         width: 100% !important;
     }
 }
 
-@media (max-width: 370px) {
-    footer{
-        padding: 25px 15px;
+@media (max-width: 375px) {
+    footer {
+        padding: 35px 15px !important;
+    }
+    footer .flex{
+        justify-content: space-between !important;
     }
 }
